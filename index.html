@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matru | DB Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Matru</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">DB Developer</p>
+        <h1>Build database workflows, data pipelines, and analytics solutions that stand out.</h1>
+        <p class="hero-text">
+          I specialize in DB systems, Airflow orchestration, Python and Java integrations, Snowflake design, and AWS data platforms.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">See my work</a>
+          <a class="button secondary" href="#contact">Work together</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-card">
+          <span class="tag">Experience Dashboard</span>
+          <div class="company-badge">
+            <div class="brand-icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="brand-copy">
+              <strong>Wipro</strong>
+              <span>2 years experience</span>
+            </div>
+          </div>
+          <h2>2 Years in Database Engineering</h2>
+          <p>Certified SnowPro, AWS Cloud Practitioner, and GitHub Copilot L1 with Airflow, Snowflake, Python, and Java delivery.</p>
+          <div class="stats-grid">
+            <div>
+              <strong>2 yrs</strong>
+              <span>DB development</span>
+            </div>
+            <div>
+              <strong>3+</strong>
+              <span>Certifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-grid">
+        <div>
+          <p class="section-title">About me</p>
+          <h2>Turning ideas into memorable digital experiences.</h2>
+          <p>
+            I build reliable database solutions, automate data flows with Airflow, and deliver end-to-end systems using Python, Java, Snowflake, and AWS.
+          </p>
+          <ul class="feature-list">
+            <li>Robust data pipelines, ETL orchestration, and workflow automation.</li>
+            <li>Database architecture with Snowflake, Postgres, and AWS services.</li>
+            <li>Python and Java solutions for scalable DB systems.</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <p><strong>Experience</strong></p>
+          <p>2 years developing database solutions, building ETL workflows, and automating data pipelines for business systems.</p>
+          <p><strong>Tools</strong></p>
+          <p>Python, Java, Airflow, Snowflake, AWS, SQL, ETL design, and data orchestration.</p>
+          <p><strong>Goal</strong></p>
+          <p>Deliver reliable DB systems that make data accessible, scalable, and actionable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <p class="section-title">Projects</p>
+      <h2>Work that makes a strong first impression.</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-type">Data Pipeline</span>
+          <h3>Airflow ETL</h3>
+          <p>Built automated ETL workflows using Airflow and Snowflake for reliable nightly data processing.</p>
+          <a href="#contact" class="project-link">Talk about it</a>
+        </article>
+        <article class="project-card">
+          <span class="project-type">Database Design</span>
+          <h3>Snowflake Data Model</h3>
+          <p>Designed a Snowflake schema with optimized tables and SQL queries for analytics use cases.</p>
+          <a href="#contact" class="project-link">Let’s connect</a>
+        </article>
+        <article class="project-card">
+          <span class="project-type">Platform Integration</span>
+          <h3>Python + Java APIs</h3>
+          <p>Developed Java and Python services to connect databases, ETL jobs, and AWS infrastructure.</p>
+          <a href="#contact" class="project-link">Start your project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-title">Skills</p>
+      <h2>What I bring to every project.</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Data Modeling</h3>
+          <p>Designing scalable, secure, and optimized Snowflake and Postgres database architectures.</p>
+        </div>
+        <div class="skill-card">
+          <h3>ETL & Orchestration</h3>
+          <p>Building reliable and automated nightly data workflows utilizing Apache Airflow.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cloud Integrations</h3>
+          <p>Deploying Python and Java API solutions within AWS infrastructure seamlessly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-grid contact-grid">
+        <div>
+          <p class="section-title">Contact</p>
+          <h2>Ready to create something memorable?</h2>
+          <p>Share your project details and I’ll help you build a database architecture or data pipeline that is reliable, scalable, and secure.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button type="submit" class="button primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Matru. Built to make your portfolio unforgettable.</p>
+  </footer>
+
+  <div class="chat-widget" id="chatWidget">
+    <button class="chat-launcher" id="chatLauncher" aria-label="Open chat with Matru">
+      <span class="chat-launcher-dot"></span>
+      Chat
+    </button>
+    <div class="chat-panel" id="chatPanel" aria-hidden="true">
+      <div class="chat-header">
+        <div class="bot-avatar" aria-hidden="true">
+          <div class="avatar-sunglasses"></div>
+          <div class="avatar-jacket"></div>
+        </div>
+        <div>
+          <p class="chat-title">Matru Bot</p>
+          <p class="chat-subtitle">DB expert assistant</p>
+        </div>
+        <button class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message bot">
+          <p>Hi! I’m Matru’s assistant. Ask me about DB, Airflow, Snowflake, AWS, or how I can help your data projects.</p>
+        </div>
+      </div>
+      <form class="chat-input-area" id="chatForm">
+        <input id="chatInput" type="text" placeholder="Ask a question..." autocomplete="off" />
+        <button type="submit" class="button primary">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
